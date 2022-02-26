@@ -1,0 +1,157 @@
+body {padding-top: 3.5%;
+height: 100%;
+}
+
+.prompt ::after {
+  content: "";
+  width: 5px;
+  height: 20px;
+  background: white;
+  display: inline-block;
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+section {
+  margin: 0 20px;
+}
+
+.terminalcolor {
+  background: black;
+  color:      white;
+  
+  padding: 0;
+  margin:  0;
+  
+  width: 50%;
+
+  box-sizing: border-box; }
+
+.terminalviewver {
+  text-align: left;
+  justify-content: left;
+}
+
+.size{
+  padding-top: 5%;
+}
+
+footer {
+  width: 100%;
+}
+
+.test {
+  border: red solid 1px;
+}
+
+a:focus {
+  outline: none;
+}
+
+
+.navbar-nav li.loader {
+    margin: 12px 24px 0 6px;
+}
+
+.no-selection {
+  margin: 20px;
+}
+
+.navbartitle {
+  font-style: italic;
+}
+
+
+
+.contact-list {
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.panel {
+  margin: 20px;
+}
+
+html{
+  height: 100%;
+}
+
+.button-bar {
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid #ddd;
+  background: white;
+}
+
+.button-bar > button {
+  float: right;
+  margin: 20px;
+}
+
+li.list-group-item {
+  list-style: none;
+}
+
+li.list-group-item > a {
+  text-decoration: none;
+}
+
+li.list-group-item.active > a {
+  color: white;
+}
+
+#sideBar{
+  width: 100px;
+  background-color: red;
+}
+
+.test {
+  text-align: center;
+}
+
+.ico {
+  padding-left: 2%;
+}
+
+.side-navbar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+.my-container {
+  transition: 0.4s;
+}
+.active-nav {
+  margin-left: 0;
+}
+/* for main section */
+.active-cont {
+  margin-left: 180px;
+}
+#menu-btn {
+  background-color: #100901;
+  color: #fff;
+  margin-left: -62px;
+}
+
+
+html,body,.container {
+  height:100%;
+}
+
+.row {
+  height: 93%;
+}
+
+.row .no-float {
+float: none;
+}
